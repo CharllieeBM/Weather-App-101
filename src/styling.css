@@ -3,3 +3,9 @@ body {
   background-repeat: repeat;
   position: fixed;
 }
+
+.container {
+  border: 1px solid whitesmoke;
+  padding: 10px;
+  margin: 10px;
+}
