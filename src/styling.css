@@ -1,5 +1,6 @@
 body {
   background-image: url("/media/weatherBg.png");
+
   background-repeat: repeat;
   position: fixed;
 }
