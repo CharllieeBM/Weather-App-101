@@ -29,13 +29,20 @@ h2 {
 
 #search-city {
   display: flex;
+  background-color: #f9f7fe;
   color: gray;
   font-size: 16px;
+  border: none;
+  border-radius: 5px;
+  width: 80%;
+  padding: 15px 20px;
 }
 
 #search-button {
   background: linear-gradient(to top, #fff1eb 0%, #ace0f9 100%);
   color: black;
   font-size: 16px;
-  border: 1px solid whitesmoke;
+  border: none;
+  padding: 15px 20px;
+  border-radius: 5px;
 }
