@@ -13,7 +13,7 @@
   <div class="container">
     <header>
 
-      <h1>Weather Search</h1>
+      <h2>Weather Search</h2>
       <form>
         <input type="search" id="search-city" placeholder="Search for a city here..." required />
         <input type="submit" value="search" />
@@ -22,14 +22,19 @@
     </header>
 
     <main>
-      <h2 id="Main-City">Toronto</h2>
-      <p>
+      <div>
+        <h1 id="Main-City">Toronto</h1>
+        <p>
+          <span id="current-time">Monday, 14:30, </span>
+          <span id="conditions">Clear</span>
+          <br />
+          Humidity:
+        <div id="humidity"><strong>66%</strong></div> Wind: <span id="wind"><strong>3.13 km.h </strong></span>
+      </div>
+      <div>
         <span id="w-icon">🌤</span><span id="current-temp">24°C</span>
-        <span id="current-time"></span>
-        <span id="conditions">Clear</span>
-      <div>Humidity:</div>
-      <div id="humidity"><strong>66%</strong></div> Wind: <span id="wind"><strong>3.13 km.h </strong></span></p>
-
+        </p>
+      </div>
     </main>
 
     <footer>Coded by
