@@ -18,7 +18,7 @@ h2 {
 }
 
 .container {
-  border: 1px dotted black;
+  border: 5px dotted black;
   border-radius: 10px;
   background-color: whitesmoke;
   padding: 10px;
@@ -26,11 +26,14 @@ h2 {
 }
 
 #search-city {
+  display: flex;
   color: gray;
-  font-size: 17px;
+  font-size: 16px;
 }
 
 #search-button {
   background: linear-gradient(to top, #fff1eb 0%, #ace0f9 100%);
-  color: navy;
+  color: black;
+  font-size: 16px;
+  border: 1px solid whitesmoke;
 }
