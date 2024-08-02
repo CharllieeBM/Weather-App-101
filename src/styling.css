@@ -42,7 +42,7 @@ h2 {
 
 .searchFormButton {
   display: flex;
-  justify-content: right;
+  justify-items: right;
   background: linear-gradient(to top, #fff1eb 0%, #ace0f9 100%);
   font-family: "Montserrat Alternates", sans-serif;
   color: black;
