@@ -27,29 +27,25 @@ h2 {
   box-shadow: 0 30px 50px rgba(65, 50, 100, 0.08);
 }
 
-.searchCity {
-  display: flex;
-  justify-items: left;
+.searchCityInput {
   font-family: "Montserrat Alternates", sans-serif;
   background-color: #f9f7fe;
-  color: rgb(92, 91, 91);
-  font-size: 16px;
   border: none;
   border-radius: 5px;
   width: 80%;
+  font-size: 16px;
   padding: 15px 20px;
+  color: rgb(92, 91, 91);
 }
 
 .searchFormButton {
-  display: flex;
-  justify-items: right;
   background: linear-gradient(to top, #fff1eb 0%, #ace0f9 100%);
-  font-family: "Montserrat Alternates", sans-serif;
-  color: black;
-  font-size: 15px;
   padding: 15px 20px;
   border: none;
-  border-radius: 5px;
+  border-radius: 6px;
+  color: black;
+  font-family: "Montserrat Alternates", sans-serif;
+  font-size: 14.5px;
 }
 footer {
   display: flex;
