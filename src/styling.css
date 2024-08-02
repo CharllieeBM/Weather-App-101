@@ -56,6 +56,9 @@ main {
   display: flex;
   justify-content: space-between;
 }
+.weatherContainer {
+  display: flex;
+}
 
 .container {
   padding: 30px;
