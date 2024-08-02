@@ -59,6 +59,23 @@ main {
 .weatherContainer {
   display: flex;
 }
+.icon {
+  font-size: 45px;
+  margin-top: 25px;
+}
+
+.currentTemp {
+  font-size: 88px;
+  margin-left: 10px;
+  font-weight: bold;
+  color: #0292c2;
+}
+
+.unit {
+  margin-top: 16px;
+  font-size: 30px;
+  color: rgba(39, 33, 66, 0.8);
+}
 
 .container {
   padding: 30px;
@@ -95,6 +112,7 @@ main {
 a:link {
   text-decoration: none;
   color: #52b2bf;
+  cursor: crosshair;
 }
 
 a:visited {
