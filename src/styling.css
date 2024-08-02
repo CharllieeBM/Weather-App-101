@@ -48,7 +48,6 @@ h2 {
   font-size: 14.5px;
 }
 footer {
-  display: flex;
-  justify-content: center;
-  font-size: 14px;
+  text-align: center;
+  font-size: 13px;
 }
