@@ -63,13 +63,6 @@ footer {
   color: rgba(0, 0, 0, 0.6);
   padding: 20px 0 0 0;
 }
-a:hover {
-  color: #f9f7fe;
-  text-decoration: dotted;
-}
-a:active {
-  color: #1f456e;
-}
 
 a:link {
   text-decoration: none;
@@ -79,4 +72,14 @@ a:link {
 a:visited {
   color: #63c5da;
   text-decoration: none;
+}
+a:hover {
+  color: #f9f7fe;
+  text-decoration: dotted;
+}
+a:active {
+  color: #1f456e;
+}
+strong {
+  color: #0292c2;
 }
