@@ -18,8 +18,7 @@ h2 {
 }
 
 .container {
-  display: flex;
-  justify-content: center;
+  text-align: center;
   padding: 30px;
   margin: 45px auto;
   border: 3px dotted black;
