@@ -11,11 +11,13 @@ h1 {
   font-family: "Pacifico", cursive;
   font-weight: 400;
   font-style: normal;
+  color: #0292c2;
 }
 
 h2 {
   display: flex;
   justify-content: center;
+  color: #1f456e;
 }
 
 .container {
@@ -60,4 +62,19 @@ footer {
   border-top: 1px solid #d8d7dc;
   color: rgba(0, 0, 0, 0.6);
   padding: 20px 0 0 0;
+}
+a:hover {
+  color: #f9f7fe;
+}
+a:active {
+  color: #1f456e;
+}
+
+a:link {
+  text-decoration: none;
+  color: #52b2bf;
+}
+
+a:visited {
+  color: #63c5da;
 }
