@@ -39,6 +39,17 @@ main {
   padding: 30px 0;
 }
 
+.mainCity {
+  margin: 0;
+  font-size: 38px;
+  line-height: 48px;
+}
+
+.mainCityDeets {
+  font-size: 16px;
+  line-height: 20px;
+}
+
 .weatherData {
   display: flex;
   justify-content: space-between;
