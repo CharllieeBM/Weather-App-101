@@ -19,6 +19,30 @@ h2 {
   justify-content: center;
   color: #1f456e;
 }
+header {
+  border-bottom: 1px solid #d8d7dc;
+  padding: 0 0 30px 0;
+}
+
+footer {
+  text-align: center;
+  font-size: 12.5px;
+  border-top: 1px solid #d8d7dc;
+  color: rgba(0, 0, 0, 0.6);
+  padding: 20px 0 0 0;
+}
+strong {
+  color: #0292c2;
+}
+
+main {
+  padding: 30px 0;
+}
+
+.weatherData {
+  display: flex;
+  justify-content: space-between;
+}
 
 .container {
   padding: 30px;
@@ -28,11 +52,6 @@ h2 {
   background-color: whitesmoke;
   max-width: 650px;
   box-shadow: 0 30px 50px rgba(65, 50, 100, 0.08);
-}
-
-header {
-  border-bottom: 1px solid #d8d7dc;
-  padding: 0 0 30px 0;
 }
 
 .searchCityInput {
@@ -56,13 +75,6 @@ header {
   font-family: "Montserrat Alternates", sans-serif;
   font-size: 14.5px;
 }
-footer {
-  text-align: center;
-  font-size: 12.5px;
-  border-top: 1px solid #d8d7dc;
-  color: rgba(0, 0, 0, 0.6);
-  padding: 20px 0 0 0;
-}
 
 a:link {
   text-decoration: none;
@@ -79,7 +91,4 @@ a:hover {
 }
 a:active {
   color: #1f456e;
-}
-strong {
-  color: #0292c2;
 }
