@@ -29,8 +29,9 @@ h2 {
 
 #search-city {
   display: flex;
+  font-family: "Montserrat Alternates", sans-serif;
   background-color: #f9f7fe;
-  color: gray;
+  color: rgb(92, 91, 91);
   font-size: 16px;
   border: none;
   border-radius: 5px;
