@@ -6,7 +6,7 @@ function handleSearchSubmit(event) {
   cityElement.innerHTML = searchInput.value;
 }
 // call the API
-// search for the city
+// search for the city ; d4ef035e3fbd4697b7a638t907f10o0c
 
 let searchFormElement = document.querySelector("#search-city");
 searchFormElement.addEventListener("submit", handleSearchSubmit);
