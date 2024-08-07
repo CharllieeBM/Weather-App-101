@@ -1,6 +1,10 @@
 function updateTempData(response) {
   let temperatureElement = document.querySelector("#current-temp");
-  temperatureElement.innerHTML = Math.round(response.data.temperature.current);
+  let temperature = response.data.temperature.current;
+  let cityElement = document.querySelector("#main-city");
+
+  cityElement.innerHTML = response.data.city;
+  temperatureElement.innerHTML = Math.round(temperature);
   console.log(response.data.temperature.current);
 }
 
@@ -14,8 +18,7 @@ function searchCity(city) {
 function handleSearchSubmit(event) {
   event.preventDefault();
   let searchInput = document.querySelector("#search-city-input");
-  let cityElement = document.querySelector("#main-city");
-  cityElement.innerHTML = searchInput.value;
+
   searchCity(searchInput.value);
 }
 // call the API
