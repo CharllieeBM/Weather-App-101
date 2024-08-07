@@ -1,5 +1,7 @@
 function updateTempData(response) {
-  console.log(response.data);
+  let temperatureElement = document.querySelector("#current-temp");
+  temperatureElement.innerHTML = Math.round(response.data.temperature.current);
+  console.log(response.data.temperature.current);
 }
 
 function searchCity(city) {
