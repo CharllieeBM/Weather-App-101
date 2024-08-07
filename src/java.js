@@ -27,6 +27,8 @@ function handleSearchSubmit(event) {
 let searchFormElement = document.querySelector("#search-city");
 searchFormElement.addEventListener("submit", handleSearchSubmit);
 
+searchCity("Toronto");
+
 /* function changedDay (date){
     let hours = date.getHours();  
     if (hours < 10) {
