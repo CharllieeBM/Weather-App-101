@@ -60,19 +60,19 @@ main {
   display: flex;
 }
 .icon {
-  font-size: 45px;
-  margin-top: 25px;
+  width: 90px;
+  height: 90px;
 }
 
 .currentTemp {
   font-size: 88px;
-  margin-left: 10px;
+  line-height: 88px;
   font-weight: bold;
   color: #0292c2;
 }
 
 .unit {
-  margin-top: 16px;
+  margin-top: 6px;
   font-size: 30px;
   color: rgba(39, 33, 66, 0.8);
 }
