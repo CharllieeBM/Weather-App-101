@@ -1,15 +1,17 @@
+function handleSearchSubmit(event) {
+  event.preventDefault();
+  let searchInput = document.querySelector("#search-city-input");
+  /* console.log(searchInput.value); */
+  let cityElement = document.querySelector("#main-city");
+  cityElement.innerHTML = searchInput.value;
+}
+// call the API
+// search for the city
 
+let searchFormElement = document.querySelector("#search-city");
+searchFormElement.addEventListener("submit", handleSearchSubmit);
 
-
-
-function search(event) {
-    event.preventDefault();
-    let searchInputElement = document.querySelector("#search-city");
-    let city= document.querySelector("#main-city");
-    city.innerHTML = searchInputElement.value;
-  }
-
-  function changedDay (date){
+/* function changedDay (date){
     let hours = date.getHours();  
     if (hours < 10) {
       hours = `0${hours}`;
@@ -39,4 +41,4 @@ let currentDate = new Date();
 currentDateELement.innerHTML = changedDay(currentDate);
 
 let searchForm = document.querySelector(".searchCity");
-searchForm.addEventListener("submit", search);
+searchForm.addEventListener("submit", search); */
