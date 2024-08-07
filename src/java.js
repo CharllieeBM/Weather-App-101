@@ -2,10 +2,12 @@ function updateTempData(response) {
   let temperatureElement = document.querySelector("#current-temp");
   let temperature = response.data.temperature.current;
   let cityElement = document.querySelector("#main-city");
+  let descriptionElement = document.querySelector("#condition");
 
   cityElement.innerHTML = response.data.city;
+  descriptionElement.innerHTML = response.data.condition.description;
   temperatureElement.innerHTML = Math.round(temperature);
-  console.log(response.data.temperature.current);
+  console.log(response.data.condition.description);
 }
 
 function searchCity(city) {
