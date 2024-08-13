@@ -72,8 +72,8 @@ main {
 }
 
 .icon {
-  width: 90px;
-  height: 90px;
+  width: 95px;
+  height: 95px;
 }
 
 .currentTemp {
@@ -130,8 +130,10 @@ main {
 }
 
 .forecast-icon {
-  font-size: 48px;
-  text-align: center;
+  width: 80px;
+  height: 80px;
+  display: block;
+  margin: 0 auto;
 }
 
 .forecast-temperatures {
@@ -147,7 +149,7 @@ main {
 
 .weatherForecast {
   display: flex;
-  justify-content: space-evenly;
+  justify-content: space-around;
   margin-top: 30px;
 }
 
