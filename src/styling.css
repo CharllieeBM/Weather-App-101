@@ -145,7 +145,7 @@ main {
   padding: 0 10px;
 }
 
-.forecast {
+.weatherForecast {
   display: flex;
   justify-content: space-evenly;
   margin-top: 30px;
