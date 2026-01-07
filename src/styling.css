@@ -160,3 +160,55 @@ footer {
   color: rgba(0, 0, 0, 0.6);
   padding: 20px 0 0 0;
 }
+
+@media (max-width: 700px) {
+  body {
+    background-repeat: repeat;
+    background-size: cover;
+  }
+
+  .container {
+    width: 95%;
+    margin: 10px auto;
+    padding: 8px;
+  }
+
+  .weatherData {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .searchCityInput {
+    width: 61%;
+    margin-left: 5px;
+    font-size: 15px;
+  }
+
+  .mainCity {
+    font-size: 40px;
+  }
+
+  .currentTemp {
+    font-size: 63px;
+  }
+
+  .icon {
+    width: 70px;
+    height: 70px;
+  }
+
+  .weatherForecast {
+    flex-direction: horizontal;
+    margin-left: 0;
+  }
+
+  .forecast-date,
+  .forecast-temperatures {
+    font-size: 14px;
+  }
+
+  .forecast-icon {
+    width: 60px;
+    height: 60px;
+  }
+}
